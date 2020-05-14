@@ -1,3 +1,3 @@
-# filter-list-using-observables
+# Filter a list using Observables
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/filter-list-using-observables)
+This sample code will teach you how to filter a list using Observables in Angular. 
