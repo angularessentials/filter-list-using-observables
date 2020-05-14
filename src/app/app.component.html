@@ -1,0 +1,12 @@
+<h1>Filtering a list using Observables</h1>
+
+<label for="searchKey">Search:</label>
+<input id="searchKey" [formControl]="searchControl">
+
+<ng-container *ngIf="dataSource$ | async as dataSource">
+  <ul>
+    <li *ngFor="let name of dataSource">{{name}}</li>
+  </ul>
+
+  <p *ngIf="dataSource.length === 0">No results</p>
+</ng-container>
